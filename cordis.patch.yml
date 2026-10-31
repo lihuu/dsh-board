@@ -1,0 +1,9 @@
+# dsh-board bundle layer.
+#
+# One Host row mounts the plugin; the browser half is discovered through the
+# package's `dsh.client` manifest and `./client` export. The package registers
+# a `main` panel (key `board`), a sidebar panel icon, a sidebar footprint action
+# (the quick overlay), and a conversation-header utility.
+- insert:
+    - id: dsh-board
+      name: '@lihuu/dsh-board'

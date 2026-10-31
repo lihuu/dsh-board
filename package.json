@@ -1,0 +1,52 @@
+{
+  "name": "@lihuu/dsh-board",
+  "version": "1.0.0",
+  "description": "Kanban board for DeepSeek Harness: one board per workspace, task cards bound to long-lived native Sessions, live run status, and the Session's real conversation inside the board.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "kanban",
+    "board",
+    "task-board",
+    "session"
+  ],
+  "homepage": "https://github.com/lihuu/dsh-board#readme",
+  "bugs": {
+    "url": "https://github.com/lihuu/dsh-board/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihuu/dsh-board.git"
+  },
+  "author": "lihuu",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src/",
+    "lib/",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "icon.svg"
+  ],
+  "dsh": {
+    "client": {
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*"
+  }
+}

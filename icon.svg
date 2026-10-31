@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="dsh-board">
+  <rect width="128" height="128" rx="28" fill="#0F1115"/>
+  <g fill="none" stroke="#F5F7FA" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="22" y="28" width="22" height="72" rx="8"/>
+    <rect x="53" y="28" width="22" height="44" rx="8"/>
+    <rect x="84" y="28" width="22" height="58" rx="8"/>
+  </g>
+  <circle cx="95" cy="91" r="7" fill="#4D6BFE"/>
+</svg>
